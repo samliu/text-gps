@@ -7,6 +7,8 @@
           on their lame only-texting-not-very-smart-phone to get some directions
           in a pinch.
 
+@install  Edit config.inc.php, and point twilio's SMS address to http://mydomain.com/textgps/receive.php
+
 @usage    My parsing isn't even really parsing. It's super dumb. Super super dumb.
           Street names with spaces in them won't work. I could improve it, but
           this was a spur-of-the-moment night project, so it's your problem if you
