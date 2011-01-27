@@ -1,6 +1,7 @@
 @author   Sam Liu
 @date     01.27.11
 @title    TextGPS
+@license  Attribution for commercial use, whatever you want for personal use.
 @about    This is a Twilio-powered PHP script that allows a user to plug in a
           phone number and get directions. It's not practical for large-scale
           application use. It's meant for people like me who don't have a GPS
