@@ -1,9 +1,17 @@
 @author   Sam Liu
 @date     01.27.11
 @title    TextGPS
-@about    This is a Twilio-powered PHP script that allows a user to plug in a phone number and 
+@about    This is a Twilio-powered PHP script that allows a user to plug in a
+          phone number and get directions. It's not practical for large-scale
+          application use. It's meant for people like me who don't have a GPS
+          on their lame only-texting-not-very-smart-phone to get some directions
+          in a pinch.
 
-@usage    My parsing isn't even really parsing. It's super dumb. Super super dumb. Street names with spaces in them won't work. I could improve it, but this was a spur-of-the-moment night project, so it's your problem if you want something more complex. Currently you plug in your configs and send a text message in this format
+@usage    My parsing isn't even really parsing. It's super dumb. Super super dumb.
+          Street names with spaces in them won't work. I could improve it, but
+          this was a spur-of-the-moment night project, so it's your problem if you
+          want something more complex. Currently you plug in your configs and send
+          a text message in this format
 
           Format:
             NUM STREETNAME STREETINITIAL TOWN STATE NUM STREETNAME STREETINITIAL TOWN STATE
@@ -11,6 +19,8 @@
           Example:
             1 Easton St Boston MA 22 Harvard St Boston MA
 
-            It's not case sensitive, and you can use street instead of st, or drive instead of dr. Or vice versa.
+          It's not case sensitive, and you can use street instead of
+          st, or drive instead of dr. Or vice versa.
 
-@bugs     1.27.11 - Twilio sometimes sends them in the wrong order. it's okay because I numbered them, but it's not optimal.
+@bugs     1.27.11 - Twilio sometimes sends them in the wrong order. it's
+          okay because I numbered them, but it's not optimal.
